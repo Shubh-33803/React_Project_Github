@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    min-height: 90vh;
+}
+
+.active{
+    background-color: rgba(177, 177, 177, 0.495);
+    padding: 7px 4px ;
+    border-radius: 4px;
+}
